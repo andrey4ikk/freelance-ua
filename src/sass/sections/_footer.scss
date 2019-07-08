@@ -1,0 +1,94 @@
+@import 'helpers/variables';
+@import 'media/responsive';
+
+
+
+  .container-footer-section {
+    border-bottom: solid 1px #e1e1e4;
+    align-items: center;
+    padding: 65px 0 52px 0;
+  }
+
+.logo-freelance-ukraine {
+  display: flex;
+  img {
+    width: 41px;
+    height: 41px;
+  }
+}
+
+.logo-frelance-footer {
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+  .title-on-the-site-footer {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-family: $montserrat-sans;
+    font-weight: $semibold-weight;
+    color: $bright-grey;
+  }
+  .settings {
+    float: left;
+    p {
+      font-family: $montserrat-sans;
+      font-size: 13px;
+      color: $bright-grey;
+      cursor: pointer;
+    }
+    a {
+      text-decoration: none;
+      color: #4e5058;
+    }
+  }
+
+.settings.two-column {
+  float: right;
+  padding-top: 25px;
+} 
+
+.social-media {
+  margin-left: 78px;
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 31px;
+    &:hover {
+      filter: saturate(3);
+    }
+  }
+}
+
+.footer-rights {
+  display: flex;
+  padding: 34px 0 84px 0;
+  justify-content: space-between;
+  .about-project-contact, 
+  .copyright {
+    p {
+      font-family: $montserrat-sans;
+      font-size: 13px;
+      color: $bright-grey;
+      cursor: pointer;
+    }
+  }
+}
+
+.about-footer {
+  display: flex;
+  align-items: center;
+  a {
+    text-decoration: none;
+    list-style: none;
+    font-family: $montserrat-sans;
+    font-size: 13px;
+    color: $bright-grey;
+    &:first-child {
+    margin-right: 30px;
+    }
+  }
+}

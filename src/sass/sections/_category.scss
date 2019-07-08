@@ -1,0 +1,100 @@
+@import "helpers/variables";
+@import "media/responsive";
+
+.category-sections {
+  background-color: #f7f7f7;
+  padding-bottom: 69px;
+}
+
+.category-sections-block {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.category-sections-about {
+  padding: 90px 10px 9px 20px;
+  .category-projects h5 { 
+    font-family: $montserrat-sans;
+    font-size: 24px;
+    font-weight: $xbold-weight;
+    color: #1f2129;
+    margin: 0;
+  }
+  .about-work {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  span {
+    font-family: $montserrat-sans;
+    font-size: 14px;
+    color: #4e5058;
+    font-weight: $medium-weight;
+  }
+  .all-category {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    text-decoration: none;
+    font-size: 12px;
+    color: #34cb66;
+    border-bottom: 1.5px dotted #34cb66;
+    line-height: 1.5;
+    font-weight: $xbold-weight; 
+  }
+}
+
+  .logo-grid-container {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-grid-item {
+    background-image: url('../img/bg_item.png');
+    background-repeat: no-repeat;
+    background-position: 52% 37%;
+    text-decoration: none;
+    margin: 5px;
+    height: 180px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 13px -3px $iron;
+    transition: 0.2s;
+    text-align: center;
+    flex-basis: 15.7%;
+    &:hover {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: 0.2s;
+    }
+    a {
+      display: block;
+      height: 100%;
+      text-decoration: none;
+      img {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 30px;
+        }
+      span {
+        text-align: center;
+        word-break: break-all;
+        color: #4e5058;
+        font-size: 13px;
+        font-family: $montserrat-sans;
+        top: 104px;
+        position: relative;
+        }
+    }
+  }
+  .logo-grid {
+    flex-basis: 185px;
+  }
+

@@ -1,0 +1,355 @@
+
+@media (max-width: 1200px) {
+
+  .search-panel input {
+    width: 46%;
+  }
+  .logo-grid-item {
+    flex-basis: 23.7%;
+  }
+
+  .opening-project {
+    display: none;
+  } 
+  .search-panel { 
+    text-align: center;
+  }
+  .search-performer {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video-section {
+    flex-basis: 100%;
+    img {
+    border-radius: 0;
+    max-height: 100%;
+  }  
+}
+  .freelance-ukraine-container .freelance-ukraine span {
+    font-size: 24px;
+  }
+
+  .multiple-button-section {
+     width: 444px;
+     padding-top: 16px;
+  }
+  .about-section {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+      .add-project-section {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+        padding-bottom: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        .step-section {
+          margin-top: 50px;
+          flex-basis: 100%;
+          border-radius: 0; 
+          margin: 0 auto;
+        }
+     } 
+  }
+  .popular-skills-title {
+    text-align: center;
+  }
+
+  .left-section-rectangle, .right-section-rectangle {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .header-menu {
+    display: none;
+  }
+
+  .vacancy-block-info {
+    display: none;
+  }
+  .vacancy-block-about {
+    margin-left: 0;
+    padding-left: 13px;
+    padding-right: 13px;
+    a {
+      padding-right: 0;
+    }
+  }
+
+  .vacancy-block-about .offers-from-customers-item {
+    font-size: 17px;
+  }
+
+  .last-activity {
+    margin-left: 0;
+  }
+
+  .last-notifications {
+    justify-content: space-between;
+  }
+
+  .popular-skill-table .column2 {
+    display: none;
+  }
+
+  .logo-grid-item {
+    flex-basis: 31.9%;
+  }
+
+  .freelance-quantity {
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .category-projects {
+    text-align: center;
+  }
+
+  .about-work {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .all-category {
+      padding-top: 10px;
+    }
+  }
+
+  .logo-grid-item {
+    flex-basis: 47.9%;
+  }
+
+  .category-freelance {
+  text-align: center;
+    .about-work-freelance {
+      flex-direction: column;
+      align-items: center;
+    }
+    .all-work-freelance {
+      padding-top: 10px;
+    }
+  }
+  
+  .about-project {
+    text-align: center;
+  }
+
+  .view-new-project {
+    flex-direction: column;
+    align-items: center;
+    .all-project {
+      padding-top: 10px;
+    }
+  }
+
+  .freelance-description {
+    padding: 0;
+  }
+  .job-order-section .start-job-order {
+  flex-direction: column;
+  text-align: center;
+}
+  .freelance-ukraine-container .freelance-ukraine span {
+    font-size: 18px;
+  }
+
+  .notificatons-on-the-site {
+    text-align: center;
+  }
+  .notificatons-on-the-site.help {
+    padding-top: 10px;
+  }
+
+  .settings {
+    width: 100%;
+  }
+
+  .logo-frelance-footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 30px;
+  
+  }
+
+  .freelance-ukraine-container .freelance-ukraine {
+    justify-content: space-around;
+      h8 {
+        font-size: 20px;
+      }
+  }
+}
+
+// @media (max-width: 575px) {
+//   .logo-grid .logo-grid-item {
+   
+//   }
+  @media (max-width: 576px) {
+    .logo-grid-item {
+      flex-basis: 47.9%;
+    }
+  }
+
+
+@media (max-width: 480px) {
+  
+  .last-notifications {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .freelance-ukraine-container .freelance-ukraine {
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .freelance-ukraine-container .freelance-ukraine .registration-user {
+    margin: 18px 0 20px;
+    width: 72%;
+  }
+
+  .logo-grid-item {
+    flex-basis: 98%;
+    height: 57px;
+  }
+  .logo-grid-item a img {
+    left: 23px;
+    top: 10px;
+    margin: 0;
+  }
+  .logo-grid-item a span {
+    top: 18px;
+  }
+
+
+  .freelance-ukraine-container 
+  .freelance-ukraine 
+  .registration-user {
+    margin: 11px 0 10px 0;
+  }
+
+  .footer-rights {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-rights .about-project-contact p, .footer-rights .copyright p{
+    font-size: 12px;
+  }
+
+  .search-performer {
+    flex-direction: column;
+    button {
+      width: 100%;
+    }
+  } 
+  .search-performer .button-place-search {
+    width: 83%;
+    right: 0;
+    margin-top: 18px;
+  }
+
+  .search-panel input {
+    width: 83%;
+    border-radius: 50px;
+  }
+
+  .step-section {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 29px;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    .step-first-info {
+      display: flex;
+      margin-left: 45px;
+      width: 350px;
+      justify-content: space-between;
+      margin-top: -17px;
+      span {
+      display: flex;
+      margin-right: -15px;
+      font-size: 12px;
+      }
+      p {
+        font-weight: 600;
+        margin: 0;
+        padding-top: 18px;
+        }
+      }
+  }
+
+  .button-add-project {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .add-project-section {
+    padding: 0 15px 0 15px;
+    h4 {
+      font-size: 34px;
+    }
+  }
+  .job-order-section .order-for-work {
+    padding-left: 0;
+    padding-right: 0;
+  }
+    
+  .search-panel {
+    padding-top: 30px;
+  }
+  .column1 {
+    text-align: center;
+  }
+
+  .search-section h1 {
+    font-size: 28px;
+  }
+
+  .add-project-section p {
+    text-align: center;
+  }
+
+  .about-footer a {
+    font-size: 12px;
+  }
+
+  .about-section {
+    padding-top: 50px;
+    overflow: hidden;
+  }
+
+  .add-project-section {
+    .multiple-button-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        .button-add-project,
+        .button-for-registration {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          justify-content: center;
+          margin-bottom: 15px;
+          margin-right: 0;
+          width: 61%;
+          button {
+            width: 100%;
+          }
+        }
+    }
+  }
+}
+  .bg-ukraine {
+    background-position: center;
+  }
